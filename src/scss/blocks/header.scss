@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purple-header);
+    
+    
+    
+    &__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 56px;
+        margin-inline-start: 165px;
+        margin-inline-end: 165px;
+    }
+    &__button--acces{
+        color: white;
+    }
+    &__icon--white{
+        height: 24.61px;
+        width: 65.76px;
+    }
+    .box{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        content: "";
+        position: relative;
+    }
+    &__image{
+        content: "";
+        position: absolute;
+        height: 441px;
+        width: 100px;
+       
+    }
+}

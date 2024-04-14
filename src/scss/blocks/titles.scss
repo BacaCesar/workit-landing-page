@@ -1,1 +1,17 @@
+.title {
+    font-size: 88px;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    color: white;
+    height: 160px;
+    width: 635px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
+}
+.word_sub{
+    color: var(--green);
+}

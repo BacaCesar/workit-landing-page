@@ -1,0 +1,28 @@
+.functions{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+
+    .boxes{
+        display:flex;
+        flex-direction: row;
+    }
+    &__numbers{
+        height: 56px;
+        width: 56px;
+        background-color: red;
+        border-radius: 100px;
+        border: solid var(--davys-gray);
+        font-family: "Fraunces", serif;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &__title{
+        display: grid;
+        flex-direction: row;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+    }
+}
